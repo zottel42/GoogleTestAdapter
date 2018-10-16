@@ -40,10 +40,10 @@
 			{
 				string arguments = " \"\"" + TestExecutable + "\"\"";
 
-//				if (!string.IsNullOrWhiteSpace(ActualSettingsFile))
-//					arguments += " /Settings:\"\"" + ActualSettingsFile + "\"\"";
+                if (!string.IsNullOrWhiteSpace(SettingsFile))
+                    arguments += " /Settings:\"\"" + SettingsFile + "\"\"";
 
-				if (!"none".Equals(TestCaseFilter))
+                if (!"none".Equals(TestCaseFilter))
 					arguments += " /TestCaseFilter:\"\"" + TestCaseFilter + "\"\"";
 
 				if (EnableCodeCoverage)

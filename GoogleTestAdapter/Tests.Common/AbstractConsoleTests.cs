@@ -66,19 +66,19 @@ namespace GoogleTestAdapter.Tests.Common
 
         private void Setup(string settingsFile)
         {
-            if (_envVarStorage != null)
-            {
-                throw new InvalidOperationException();
-            }
+            //if (_envVarStorage != null)
+            //{
+            //    throw new InvalidOperationException();
+            //}
 
-            _envVarStorage = Environment.GetEnvironmentVariable(CommonFunctions.GtaSettingsEnvVariable);
-            Environment.SetEnvironmentVariable(CommonFunctions.GtaSettingsEnvVariable, settingsFile);
+            //_envVarStorage = Environment.GetEnvironmentVariable(CommonFunctions.GtaSettingsEnvVariable);
+            //Environment.SetEnvironmentVariable(CommonFunctions.GtaSettingsEnvVariable, settingsFile);
         }
 
         private void Teardown()
         {
-            Environment.SetEnvironmentVariable(CommonFunctions.GtaSettingsEnvVariable, _envVarStorage);
-            _envVarStorage = null;
+            //Environment.SetEnvironmentVariable(CommonFunctions.GtaSettingsEnvVariable, _envVarStorage);
+            //_envVarStorage = null;
         }
 
         private void DoRunTestsAndCheckOutput(string arguments, string testCaseName)
