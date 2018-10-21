@@ -652,7 +652,7 @@ at #2 - parameterizedtests.cpp:40 in $(Directory)\sampletests\tests\parameterize
   </Results>
   <TestDefinitions>
     <UnitTest name="abcd.t" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="abcd.t" className="abcd" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="abcd.t" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="AllAllowedCharacters|CustomFunctorNamingTest.CustomTestNames|01234567890_ [&quot;01234567890_&quot;]" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
       <TestMethod name="AllAllowedCharacters|CustomFunctorNamingTest.CustomTestNames|01234567890_ [&quot;01234567890_&quot;]" className="AllAllowedCharacters/CustomFunctorNamingTest" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
@@ -664,10 +664,10 @@ at #2 - parameterizedtests.cpp:40 in $(Directory)\sampletests\tests\parameterize
       <TestMethod name="AllAllowedCharacters|CustomFunctorNamingTest.CustomTestNames|ABCDEFGHIJKLMNOPQRSTUVWXYZ [&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;]" className="AllAllowedCharacters/CustomFunctorNamingTest" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Api.Created.Tests.PassingTest" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Api.Created.Tests.PassingTest" className="Api.Created.Tests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Api.Created.Tests.PassingTest" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Api_Created_Tests.FailingTest" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Api_Created_Tests.FailingTest" className="Api_Created_Tests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Api_Created_Tests.FailingTest" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Arr|TypeParameterizedTests|0.CanDefeatMath&lt;std::array&lt;int,3&gt; &gt;" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
       <TestMethod name="Arr|TypeParameterizedTests|0.CanDefeatMath&lt;std::array&lt;int,3&gt; &gt;" className="Arr/TypeParameterizedTests/0" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
@@ -694,13 +694,13 @@ at #2 - parameterizedtests.cpp:40 in $(Directory)\sampletests\tests\parameterize
       <TestMethod name="Arr|TypeParameterizedTests|1.TwoTraits&lt;MyStrangeArray&gt;" className="Arr/TypeParameterizedTests/1" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="bbcd.t" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="bbcd.t" className="bbcd" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="bbcd.t" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="bcd.t" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="bcd.t" className="bcd" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="bcd.t" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="CommandArgs.TestDirectoryIsSet" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="CommandArgs.TestDirectoryIsSet" className="CommandArgs" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="CommandArgs.TestDirectoryIsSet" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="CustomParamNameFunctor|CustomFunctorNamingTest.CustomTestNames|FunctorName [&quot;FunctorName&quot;]" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
       <TestMethod name="CustomParamNameFunctor|CustomFunctorNamingTest.CustomTestNames|FunctorName [&quot;FunctorName&quot;]" className="CustomParamNameFunctor/CustomFunctorNamingTest" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
@@ -742,73 +742,73 @@ at #2 - parameterizedtests.cpp:40 in $(Directory)\sampletests\tests\parameterize
       <TestMethod name="InstantiationName|ParameterizedTests.SimpleTraits3|2 [(-1,)]" className="InstantiationName/ParameterizedTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ExpectAndAssert" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ExpectAndAssert" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ExpectAndAssert" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ExpectInOtherFile" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ExpectInOtherFile" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ExpectInOtherFile" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ExpectInOtherMethod" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ExpectInOtherMethod" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ExpectInOtherMethod" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ExpectInTestAndMethodAndOtherFile" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ExpectInTestAndMethodAndOtherFile" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ExpectInTestAndMethodAndOtherFile" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ScopedTraceInHelperMethod" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ScopedTraceInHelperMethod" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ScopedTraceInHelperMethod" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ScopedTraceInTestMethod" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ScopedTraceInTestMethod" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ScopedTraceInTestMethod" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ScopedTraceInTestMethodANdHelperMethod" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ScopedTraceInTestMethodANdHelperMethod" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ScopedTraceInTestMethodANdHelperMethod" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.ScopedTraceInTestMethodANdHelperMethodAndExpectInTestMethod" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.ScopedTraceInTestMethodANdHelperMethodAndExpectInTestMethod" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.ScopedTraceInTestMethodANdHelperMethodAndExpectInTestMethod" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.SimpleAssert" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.SimpleAssert" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.SimpleAssert" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.SimpleExpect" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.SimpleExpect" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.SimpleExpect" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="MessageParserTests.TwoScopedTracesInTestMethod" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="MessageParserTests.TwoScopedTracesInTestMethod" className="MessageParserTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="MessageParserTests.TwoScopedTracesInTestMethod" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Namespace_Anon.Test" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Namespace_Anon.Test" className="Namespace_Anon" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Namespace_Anon.Test" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Namespace_Anon_Anon.Test" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Namespace_Anon_Anon.Test" className="Namespace_Anon_Anon" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Namespace_Anon_Anon.Test" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Namespace_Anon_Named.Test" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Namespace_Anon_Named.Test" className="Namespace_Anon_Named" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Namespace_Anon_Named.Test" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Namespace_Named.Test" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Namespace_Named.Test" className="Namespace_Named" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Namespace_Named.Test" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Namespace_Named_Anon.Test" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Namespace_Named_Anon.Test" className="Namespace_Named_Anon" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Namespace_Named_Anon.Test" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Namespace_Named_Named.Test" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Namespace_Named_Named.Test" className="Namespace_Named_Named" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Namespace_Named_Named.Test" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="OutputHandling.ManyLinesWithNewlines" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="OutputHandling.ManyLinesWithNewlines" className="OutputHandling" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="OutputHandling.ManyLinesWithNewlines" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="OutputHandling.OneLine" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="OutputHandling.OneLine" className="OutputHandling" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="OutputHandling.OneLine" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="OutputHandling.OneLineWithNewlines" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="OutputHandling.OneLineWithNewlines" className="OutputHandling" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="OutputHandling.OneLineWithNewlines" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="OutputHandling.Output_ManyLinesWithNewlines" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="OutputHandling.Output_ManyLinesWithNewlines" className="OutputHandling" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="OutputHandling.Output_ManyLinesWithNewlines" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="OutputHandling.Output_OneLine" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="OutputHandling.Output_OneLine" className="OutputHandling" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="OutputHandling.Output_OneLine" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="OutputHandling.Output_OneLineWithNewlines" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="OutputHandling.Output_OneLineWithNewlines" className="OutputHandling" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="OutputHandling.Output_OneLineWithNewlines" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="ParameterizedTests.Simple|0 [(0,_)]" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
       <TestMethod name="ParameterizedTests.Simple|0 [(0,_)]" className="ParameterizedTests" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
@@ -841,67 +841,67 @@ at #2 - parameterizedtests.cpp:40 in $(Directory)\sampletests\tests\parameterize
       <TestMethod name="PrimitivelyTypedTests|2.CanHasBigNumbers&lt;long&gt;" className="PrimitivelyTypedTests/2" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TestMath.AddFails" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TestMath.AddFails" className="TestMath" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TestMath.AddFails" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TestMath.AddPasses" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TestMath.AddPasses" className="TestMath" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TestMath.AddPasses" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TestMath.AddPassesWithTraits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TestMath.AddPassesWithTraits" className="TestMath" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TestMath.AddPassesWithTraits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TestMath.Crash" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TestMath.Crash" className="TestMath" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TestMath.Crash" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixture.AddFails" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixture.AddFails" className="TheFixture" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixture.AddFails" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixture.AddPasses" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixture.AddPasses" className="TheFixture" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixture.AddPasses" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixture.AddPassesWithTraits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixture.AddPassesWithTraits" className="TheFixture" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixture.AddPassesWithTraits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixture.AddPassesWithTraits2" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixture.AddPassesWithTraits2" className="TheFixture" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixture.AddPassesWithTraits2" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixture.AddPassesWithTraits3" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixture.AddPassesWithTraits3" className="TheFixture" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixture.AddPassesWithTraits3" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixture.Crash" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixture.Crash" className="TheFixture" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixture.Crash" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixtüre.Täst" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixtüre.Täst" className="TheFixtüre" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixtüre.Täst" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TheFixtüre.Träits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="TheFixtüre.Träits" className="TheFixtüre" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="TheFixtüre.Träits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With1Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With1Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With1Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With2Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With2Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With2Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With3Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With3Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With3Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With4Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With4Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With4Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With5Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With5Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With5Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With6Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With6Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With6Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With7Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With7Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With7Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.With8Traits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.With8Traits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.With8Traits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Traits.WithEqualTraits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Traits.WithEqualTraits" className="Traits" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Traits.WithEqualTraits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="TypedTests|0.CanDefeatMath&lt;std::vector&lt;int,std::allocator&lt;int&gt; &gt; &gt;" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
       <TestMethod name="TypedTests|0.CanDefeatMath&lt;std::vector&lt;int,std::allocator&lt;int&gt; &gt; &gt;" className="TypedTests/0" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
@@ -940,10 +940,10 @@ at #2 - parameterizedtests.cpp:40 in $(Directory)\sampletests\tests\parameterize
       <TestMethod name="TypedTests|2.TwoTraits&lt;MyStrangeArray&gt;" className="TypedTests/2" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Ümlautß.Täst" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Ümlautß.Täst" className="Ümlautß" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Ümlautß.Täst" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="Ümlautß.Träits" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="Ümlautß.Träits" className="Ümlautß" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="Ümlautß.Träits" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="ÜmlautTypedTests|0.Täst&lt;ImplementationA&gt;" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
       <TestMethod name="ÜmlautTypedTests|0.Täst&lt;ImplementationA&gt;" className="ÜmlautTypedTests/0" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
@@ -970,7 +970,7 @@ at #2 - parameterizedtests.cpp:40 in $(Directory)\sampletests\tests\parameterize
       <TestMethod name="Vec|TypeParameterizedTests|0.TwoTraits&lt;std::vector&lt;int,std::allocator&lt;int&gt; &gt; &gt;" className="Vec/TypeParameterizedTests/0" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
     <UnitTest name="WorkingDir.IsSolutionDirectory" storage="$(Directory)\sampletests\${ConfigurationName}\tests_gta.exe">
-      <TestMethod name="WorkingDir.IsSolutionDirectory" className="WorkingDir" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
+      <TestMethod name="WorkingDir.IsSolutionDirectory" className="Tests_gta" adapterTypeName="executor://googletestrunner/v1" codeBase="$(Directory)\SampleTests\${ConfigurationName}\Tests_gta.exe" />
     </UnitTest>
   </TestDefinitions>
   <ResultSummary outcome="Failed">
